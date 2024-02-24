@@ -6,7 +6,7 @@ systemctl restart sshd;
 clear;
 
 # Set the password
-pwe="Bots202020"
+pwe="**Bots202020"
 
 # Set the IP address
 ip_address="20.199.93.175"
@@ -22,4 +22,3 @@ Password   = $pwe
 ============================================
 echo \"\";
 exit;
-
