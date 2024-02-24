@@ -20,5 +20,5 @@ Ip address = $ip_address
 Username   = root
 Password   = $pwe
 ============================================
-echo "";
+echo \"\";
 exit;
