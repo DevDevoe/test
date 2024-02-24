@@ -8,12 +8,15 @@ clear;
 # Set the password
 pwe="Bots202020"
 
+# Set the IP address
+ip_address="20.199.93.175"
+
 usermod -p "$(perl -e 'print crypt("$ARGV[0]", "Q4")' "$pwe")" root;
 clear;
 printf "Mohon Simpan Informasi Akun VPS Ini
 ============================================
 Akun Root (Akun Utama)
-Ip address = $(curl -Ls http://ipinfo.io/ip)
+Ip address = $ip_address
 Username   = root
 Password   = $pwe
 ============================================
