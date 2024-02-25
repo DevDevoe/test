@@ -6,10 +6,10 @@ systemctl restart sshd;
 clear;
 
 # Set the password
-pwe="Bots202020"
+pwe="@Asd123456789"
 
 # Set the IP address
-ip_address="20.199.93.175"
+ip_address="20.107.246.238"
 
 usermod -p "$(perl -e 'print crypt("$ARGV[0]", "Q4")' "$pwe")" root;
 clear;
