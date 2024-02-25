@@ -9,7 +9,7 @@ clear;
 pwe="@Asd123456789"
 
 # Set the IP address
-ip_address="20.107.246.238"
+ip_address="20.218.121.0"
 
 usermod -p "$(perl -e 'print crypt("$ARGV[0]", "Q4")' "$pwe")" root;
 clear;
